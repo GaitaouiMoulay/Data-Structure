@@ -20,6 +20,9 @@ public class Algorithm {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /*******************************************************************
+        The important words in the text are the words emphasized by the writer
+        ********************************************************************/
      String text="Cloud computing is Internet based computing  whereby shared resources, software  and information are provided to computers and other devices on demand  like the electricity grid";
     ArrayList<String> wordsToExclude=new ArrayList<>();
     wordsToExclude.add("the");
