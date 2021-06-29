@@ -8,6 +8,8 @@ package Array;
 /**
  *
  * @author Ghaitaoui
+ Queue Implementation in Java using Array Table of Contents [ show] What is a Queue? Queue is a special type of data structure, 
+ which is designed to hold elements before processing and process elements in a FIFO (first-in-first-out) manner.
  */
 public class QueueArray <T>{
     Object[] ArrayQueue;
