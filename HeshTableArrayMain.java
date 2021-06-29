@@ -16,6 +16,11 @@ public class HeshTableArrayMain {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+         HashTabeArray<String> hash=new HashTabeArray<String>(5);
+        hash.put(2, "m");
+        hash.put(15, "u");
+        hash.put(25, "l");
+        System.out.println(hash.Get(15));
     }
     
 }
